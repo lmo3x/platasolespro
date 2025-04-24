@@ -1,0 +1,502 @@
+<resources>
+    <string name="ruanjianapp_mingzi">TuPréstamoYa</string>
+
+    <string name="lianshupeizhi_id">1441412443934466</string>
+    <string name="lianshu_kehuduan_token" translatable="false">92bc2f50b4d60d4f556b87e50a791fe6</string>
+    <string name="ziyuanasse_zhuangment">
+         [{
+         "include":"https://peru.prestamomio.com/.well-known/assetlinks.json"
+         }]
+    </string>
+
+    <!--网络错误-->
+    <string name="tusitishi_dizih_00">La red es anormal, intente nuevamente</string>
+
+    <!--手机号错误时（号码数需小于等于10位）—手机号异常，请重新输入-->
+    <string name="tusitishi_dizih_01">El número de teléfono es anormal, vuelva a ingresar</string>
+    <!--1、验证码错误（4位验证码）——验证码不匹配，请重新输入-->
+    <!--超过发送次数（每天3次）——“今日验证码次数用光了，请明天在尝试”-->
+    <!--登录成功-->
+    <!--60秒后-->
+    <!--复制成功-->
+    <string name="tusitishi_dizih_17">Por favor, cargue su ID primero</string>
+
+    <!--进件页没填写完点击下一步时——请把全部信息填写完整-->
+    <string name="tusitishi_dizih_04">Por favor llene toda la información</string>
+
+    <string name="tusitishi_dizih_04face">Suba la foto de cara</string>
+    <!--邮箱格式错误时——邮箱格式错误，请重新输入-->
+    <string name="tusitishi_dizih_05">Error de formato de correo electrónico, vuelva a ingresar</string>
+    <!--第二联系人与第一联系人不能相同【吐司】选择相同联系人时——请选择不同联系人-->
+    <string name="tusitishi_dizih_06">Por favor seleccione un contacto diferente</string>
+    <!--请您去手机设置里修改权限-->
+    <!--确认号码项需与上一行内容相同-->
+    <string name="tusitishi_dizih_07">Por favor complete la misma información</string>
+    <!--照片上传失败，请重新上-->
+    <!--请您授权信息即可进行下一步-->
+    <!--请您去手机设置里修改权限-->
+    <string name="tusitishi_dizih_12">Vaya a la configuración del teléfono para modificar los permisos.</string>
+    <!--复制成功-->
+    <string name="tusitishi_dizih_13">Copia exitosa</string>
+
+    <string name="geshizhuanyi_jsl_form">S/ %.2f</string>
+    <string name="geshizhuanyi_jsl_form2">S/ %.0f</string>
+    <string name="geshizhuanyi_jsl_form3">S/ %s</string>
+    <string name="geshizhuanyi_jsl_form4">S/</string>
+    <string name="geshizhuanyi_jsl_form5">%.2f</string>
+    <string name="geshizhuanyi_jsl_form6">%.0f</string>
+
+
+    <!--选择语言-->
+    <string name="yuyxuanze_djsa_xibanya">España</string>
+    <string name="yuyxuanze_djsa_bilu">Perú</string>
+
+    <!--登录-->
+    <string name="gaozhanghao_pagewenan_volida">Inicie sesión ahora para solicitar su préstamo</string>
+    <string name="gaozhanghao_pagewenan_wanchengduibi">Por favor, introduzca su número de teléfono móvil</string>
+    <string name="gaozhanghao_pagewenan_jhgd">por favor ingrese el código de verificación</string>
+    <string name="gaozhanghao_pagewenan_htrgestg">volver a validar \ncódigo</string>
+    <string name="gaozhanghao_pagewenan_zhucejinru">Registrarse</string>
+    <string name="gaozhanghao_pagewenan_tishiyinxie">Por favor revise nuestra</string>
+
+    <string name="gaozhanghao_pagewenan_guojihuazhuaji1">+593</string>
+    <string name="gaozhanghao_pagewenan_guojihuazhuaji2">+51</string>
+    <string name="gaozhanghao_pagewenan_tuichu">éxito</string>
+    <string name="gaozhanghao_pagewenan_yzm2">Código de reserva en</string>
+
+    <string name="gaozhanghao_pagewenan_saltar">Rechazar</string>
+    <string name="gaozhanghao_pagewenan_jixu">Aceptar y continuar</string>
+
+    <string name="qxppp_usestr_1">1. INFORMACIÓN PERSONAL QUE RECOPILAMOS</string>
+    <string name="qxppp_usestr_2">Recopilamos cierta información personal sobre usted. La información personal que recopilamos puede ser proporcionada por usted directamente (por ejemplo, cuando abre una Cuenta para usar el Servicio a través de la aplicación, o nos proporciona información personal) o por terceros, o puede ser recopilada automáticamente cuando utiliza el App. Podemos recopilar información en diversas formas y para diversos fines (incluidos los fines permitidos por la Ley Aplicable).</string>
+    <string name="qxppp_usestr_03">2. Información obtenida de usted o de su dispositivo móvil directamente:</string>
+    <string name="qxppp_usestr_04">Cuando se registra y crea una Cuenta con nosotros utilizando la aplicación, debe proporcionarnos cierta información personal, incluido su nombre, identificación nacional, fecha de nacimiento, sexo, antecedentes educativos, religión, fotografía, dirección física, correo electrónico dirección, información de trabajo, estado civil, contacto de emergencia, su número de teléfono, detalles de la tarjeta SIM, información financiera y crediticia (incluidos los detalles de su cuenta de dinero móvil, detalles de la cuenta bancaria y número de verificación bancaria, cuando corresponda) y una identificación de cuenta y / o contraseña que usará para acceder a la aplicación después del registro.</string>
+    <string name="qxppp_usestr_05">a.SMS</string>
+    <string name="qxppp_usestr_06">TuPréstamoYa lee los mensajes de texto almacenados en su dispositivo, incluida la hora de envío, los datos de contacto, el número de teléfono y el contenido del mensaje de texto. Estos datos se recopilan aunque la aplicación esté cerrada o no se esté utilizando. Nuestra aplicación carga los datos de tus SMS en nuestro servidor https://peru.prestamomio.com para la gestión de riesgos y las comprobaciones antifraude. Una vez que la información se utiliza con fines de riesgo y/o puntuación crediticia, se elimina. Nunca compartimos datos con terceros sin tu permiso y la recopilación de SMS se realiza siempre con tu consentimiento.</string>
+    <string name="qxppp_usestr_0601">TuPréstamoYa lee los mensajes de texto almacenados en su dispositivo, incluida la hora de envío, los datos de contacto, el número de teléfono y el contenido del mensaje de texto. Estos datos se recopilan aunque la aplicación esté cerrada o no se esté utilizando. Nuestra aplicación carga los datos de tus SMS en nuestro servidor c https://peru.prestamomio.com para la gestión de riesgos y las comprobaciones antifraude. Una vez que la información se utiliza con fines de riesgo y/o puntuación crediticia, se elimina. Nunca compartimos datos con terceros sin tu permiso y la recopilación de SMS se realiza siempre con tu consentimiento.</string>
+    <string name="qxppp_usestr_07">b.contactos</string>
+    <string name="qxppp_usestr_08">Permite que la APP obtenga permiso de acceder a tus contactos para detectar referencias y poder completar automáticamente el proceso de solicitud del préstamo. Recopilar información de los contactos sirve para evaluar su riesgo y puntuaje crediticio, como parte de nuestro proceso de préstamo, requerimos referencias del solicitante del préstamo. En este sentido, durante la presentación del formulario en nuestra aplicación, recopilamos su información de contacto para detectar contactos cercanos que le permitan completar automáticamente los datos durante el proceso de solicitud de préstamo.</string>
+    <string name="qxppp_usestr_09">La información de contactos se cargará en el servidor   y no se compartirá con ningún tercero.</string>
+    <string name="qxppp_usestr_010">c.Registros de llamadas </string>
+    <string name="qxppp_usestr_011">Escanearemos y cargaremos la información del registro de llamadas utilizando el protocolo de transferencia de datos más seguro. La información del registro de llamadas solo se utiliza en el proceso de revisión de crédito y no se compartirá con organizaciones de terceros sin su permiso.</string>
+    <string name="qxppp_usestr_012">La información de Registros de llamadas se cargará en el servidor   y no se compartirá con ningún tercero.</string>
+    <string name="qxppp_usestr_013">d.Cámara y fotos</string>
+    <string name="qxppp_usestr_014">Permítanos capturar las imágenes de su documento e imágenes para la solicitud de préstamo.</string>
+    <string name="qxppp_usestr_015">e.Ubicación</string>
+    <string name="qxppp_usestr_016">La ubicación del usuario ayuda a encontrar y verificar direcciones, lo que ayuda a tomar mejores decisiones de riesgo crediticio y acelera el proceso de "conocer a su cliente" (KYC).</string>
+    <string name="qxppp_usestr_017">f.Equipo</string>
+    <string name="qxppp_usestr_018">Permítanos recopilar y monitorear la información relevante del hardware de su equipo para establecer su identidad.</string>
+    <string name="qxppp_usestr_019">g.Estado del teléfono</string>
+    <string name="qxppp_usestr_020">El estado del teléfono solo se usa para registrar y ver información específica. La información proporcionada por el usuario puede ayudarnos a ver mejor cualquier operación no autorizada en este dispositivo, ya que esto nos permitirá detectar mejor el fraude y los riesgos potenciales.</string>
+    <string name="qxppp_usestr_021">h.Calendario</string>
+    <string name="qxppp_usestr_022">Se usa para recordarle la Su última fecha de cambio es el para evitar el impacto del pago vencido en su crédito.</string>
+    <string name="qxppp_usestr_023">i.Almacenamiento de archivos</string>
+    <string name="qxppp_usestr_024">Este permiso es necesario para que los estados de cuenta de préstamos de los usuarios se puedan descargar y guardar de forma segura en el teléfono de los usuarios, y para que el usuario pueda cargar los documentos correctos para una aprobación y desembolso más rápidos del préstamo. Además, esto ayuda a proporcionar una experiencia fluida y fluida al usar la aplicación.</string>
+    <string name="qxppp_usestr_025">j.Lista de aplicaciones</string>
+    <string name="qxppp_usestr_026">Recopilamos la información de metadatos de cada aplicación insgua_cashada, como el nombre de la aplicación, el nombre del paquete, la hora de insgua_cashación, la hora de actualización en su dispositivo para mejorar su evaluación crediticia y crear ofertas personalizadas.</string>
+
+    <string name="qxppp_usestr_027">3. EL USO DE INFORMACIÓN PERSONAL RECOPILADA</string>
+    <string name="qxppp_usestr_028">Podemos utilizar la información personal recopilada para cualquiera de los siguientes propósitos, así como para otros fines permitidos por la ley aplicable:</string>
+    <string name="qxppp_usestr_029">Podemos usar su información personal:</string>
+    <string name="qxppp_usestr_030">● para identificarlo y registrarlo como usuario y para administrar, o verificar su Cuenta como tal;</string>
+    <string name="qxppp_usestr_031">● para facilitar o habilitar cualquier verificación que podamos, según nuestro criterio, consideremos necesario antes de que lo registremos como usuario;</string>
+    <string name="qxppp_usestr_032">● desembolsar el préstamo y cobrar pagos por su uso del Servicio;</string>
+    <string name="qxppp_usestr_033">● para construir modelos de crédito y realizar una calificación crediticia;</string>
+    <string name="qxppp_usestr_034">● para cumplir con las leyes, regulaciones y normas aplicables, como las relacionadas con los requisitos de KYC (conocer a su cliente, ¨Know Your Customer¨ en inglés) y anti-lavado de dinero;</string>
+    <string name="qxppp_usestr_035">● para comunicarse con usted y enviarle información relacionada con el uso de la aplicación;</string>
+    <string name="qxppp_usestr_036">● para notificarle sobre cualquier actualización de la Aplicación o cambios en el Servicio (incluida la tasa de interés, las Tarifas de transacción, etc.) disponibles;</string>
+    <string name="qxppp_usestr_037">● para procesar y responder las consultas y comentarios recibidos de usted;</string>
+    <string name="qxppp_usestr_038">● para mantener, desarrollar, probar, mejorar y personalizar la aplicación para satisfacer sus necesidades y preferencias como usuario;</string>
+    <string name="qxppp_usestr_039">● ponerse en contacto con usted por teléfono mediante llamadas de mensajes marcados automáticamente o pregrabados o mensajes de texto (SMS) (si corresponde) según lo autorizado para los fines descritos en esta Política de Privacidad y los Términos de Uso;</string>
+    <string name="qxppp_usestr_040">● para monitorear y analizar las actividades de los usuarios y los datos demográficos, incluidas las tendencias y el uso del Servicio disponible en la Aplicación;</string>
+    <string name="qxppp_usestr_041">4. COMPARTIR INFORMACIÓN PERSONAL RECOPILADA</string>
+    <string name="qxppp_usestr_042">a. Podemos divulgar o compartir con afiliados y otras partes su información personal para cualquiera de los siguientes propósitos, así como para otros fines permitidos por la Ley Aplicable (aunque en cada caso siempre actuaremos de manera razonable y no divulgaremos o compartiremos más) Información personal de lo que se requiere para el propósito particular):</string>
+    <string name="qxppp_usestr_043">● cuando sea requerido o autorizado por la Ley Aplicable (incluyendo, entre otros, responder a consultas regulatorias, investigaciones o directivas, o cumplir con los requisitos legales o reglamentarios de presentación y presentación de informes), para los fines especificados en dicha Ley Aplicable;</string>
+    <string name="qxppp_usestr_044">● cuando exista algún tipo de procedimiento legal entre usted y nosotros, o entre usted y otra parte, en relación con el Servicio o relacionado con él, a los fines de dicho procedimiento legal;</string>
+    <string name="qxppp_usestr_045">● en relación con, o durante las negociaciones de cualquier fusión, venta de activos de la empresa, consolidación o reestructuración, financiación o adquisición de todo o una parte de nuestro negocio por o en otra empresa, a los fines de dicha transacción (incluso si el la transacción eventualmente no se procede con);</string>
+    <string name="qxppp_usestr_046">● donde compartimos su información personal con terceros (incluidos los burós de referencia de crédito, proveedores de redes móviles, agencias de cobro ,nuestros propios agentes, proveedores, contratistas, socios y cualquier otra persona que nos brinde servicios, realice funciones en nuestro nombre o quien colaboramos con), para o en relación con los fines para los cuales están involucrados dichos terceros o los propósitos de nuestra colaboración con dichos terceros (según sea el caso), lo que puede incluir permitir que dichos terceros introduzcan u ofrezcan productos o servicios para usted u otras actividades de conducción que incluyen marketing, investigación, análisis y desarrollo de productos;</string>
+    <string name="qxppp_usestr_047">● cuando compartimos información personal con afiliados, solo lo haremos con el fin de que nos ayuden a proporcionar la aplicación o para operar nuestro negocio (incluido, cuando se haya suscrito a nuestra lista de correo, para fines de marketing directo) o para con el propósito de que realicen el procesamiento de datos en nuestro nombre. Por ejemplo, nuestro afiliado en otro país puede procesar y / o almacenar su información personal en nombre de la compañía de nuestro grupo en su país. Todos nuestros Afiliados se comprometen a procesar la Información personal que reciben de nosotros de acuerdo con esta Política de privacidad y la Ley aplicable;</string>
+    <string name="qxppp_usestr_048">● donde publicamos estadísticas relacionadas con el uso de la Aplicación y el Servicio, en cuyo caso toda la información se agregará y se hará anónima;</string>
+    <string name="qxppp_usestr_049">● cuando creemos de buena fe que la divulgación de su información personal es necesaria para cumplir con la ley aplicable, evitar daños físicos o pérdidas financieras, informar sospechas de actividad ilegal o investigar violaciones de nuestros Términos de Uso;</string>
+    <string name="qxppp_usestr_050">b. Cuando no sea necesario que la información personal divulgada o compartida con otras partes esté asociada con usted, haremos todos los esfuerzos razonables para eliminar los medios por los cuales la información personal puede asociarse con usted como individuo antes de divulgar o compartir dicha información.</string>
+    <string name="qxppp_usestr_051">c. No venderemos ni alquilaremos su información personal a terceros.</string>
+    <string name="qxppp_usestr_052">d. Además de lo dispuesto en esta Política de Privacidad, podemos divulgar o compartir su información personal si le notificamos esto por adelantado y hemos obtenido su consentimiento para la divulgación o el intercambio.</string>
+    <string name="qxppp_usestr_053">5. DÓNDE ALMACENAMOS SU INFORMACIÓN PERSONAL</string>
+    <string name="qxppp_usestr_054">a. La información de contacto se cargará en el servidor   y no se compartirá con ningún tercero.</string>
+    <string name="qxppp_usestr_055">b. La información personal que recopilamos de usted puede ser almacenada, transferida o procesada por proveedores de servicios externos. Haremos todos los esfuerzos razonables para garantizar que todos los proveedores de servicios de terceros brinden un nivel de protección comparable a nuestros compromisos en virtud de esta Política de Privacidad.</string>
+    <string name="qxppp_usestr_056">c. Su información personal también puede ser almacenada o procesada fuera de su país por personal que trabaja para nosotros en otros países, o por nuestros proveedores de servicios externos, proveedores, contratistas o afiliados, en la medida permitida por la ley aplicable. En tal caso, nos aseguraremos de que dicha información personal permanezca sujeta a un nivel de protección comparable a lo requerido por las leyes de su país (y, en cualquier caso, en línea con nuestros compromisos en esta Política de privacidad).</string>
+
+    <string name="qxppp_usestr_dianjijixu">Al presionar "ACEPTO Y CONTINUAR" se entenderá que has revisado, leído y aceptado los términos de nuestro </string>
+
+
+    <string name="qxppp_usestr_dierduanwuyong_02">TuPréstamoYa Servicios , es la responsable de proteger los datos personales que recabe de particulares , respecto de su uso, manejo, almacenamiento y confidencialidad.</string>
+    <string name="qxppp_usestr_dierduanwuyong_07">Recolección de información sobre las aplicaciones instaladas</string>
+    <string name="qxppp_usestr_dierduanwuyong_08">Supervise y recopile el contenido de las aplicaciones instaladas: nombre de la aplicación, nombre del paquete de la aplicación, tiempo de instalación de la aplicación, tiempo de instalación de la aplicación.
+Almacenamiento de datos: los datos de la aplicación instalada se cifrarán y cargarán en nuestro servidor https://peru.prestamomio.com a través del protocolo HTTPS. Nunca compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_09">Recolección de datos SMS</string>
+    <string name="qxppp_usestr_dierduanwuyong_010">Monitoreo y recopilación del contenido de SMS: todos los datos de SMS se cifrarán y cargarán en el servidor a través de la aplicación, pero filtramos y eliminamos los datos de SMS personales en el servidor. Solo recopilamos y monitoreamos el remitente alfanumérico de 6 dígitos de su El SMS financiero enviado desde la bandeja de entrada. Esto incluye el número y nombre del remitente, así como el contenido del SMS y su información histórica.
+Almacenamiento de datos SMS: los datos SMS se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_011">Recolección de listas de contactos</string>
+    <string name="qxppp_usestr_dierduanwuyong_012">Después de que el usuario inicie sesión correctamente, obtendrá el permiso de la lista de contactos después de que el usuario esté de acuerdo, de modo que el usuario pueda seleccionar rápidamente un contacto de la lista de comunicación y completarlo automáticamente en nuestra aplicación. Cuando un usuario completa la información de contacto, cargamos los datos de la lista de contactos del usuario con el consentimiento del usuario, incluidos el nombre, el número de teléfono, el tipo de cuenta, la información de contacto modificada recientemente, los favoritos y otros datos opcionales (como direcciones de relación y estructura).
+Almacenamiento de datos de la lista de contactos: los datos de la lista de contactos del usuario se cifrarán y cargarán en nuestro servidor de membresía https://peru.prestamomio.com a través del protocolo HTTPS. Nunca compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_013">Lugar</string>
+    <string name="qxppp_usestr_dierduanwuyong_014">Verifique su ubicación, solo depositamos préstamos a usuarios peruanos
+Almacenamiento de datos Lugar: los datos Lugar se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+
+
+    <string name="qxppp_usestr_dierduanwuyong_0443">Almacenamiento</string>
+    <string name="qxppp_usestr_dierduanwuyong_0444">Se requiere su autorización para acceder al espacio de almacenamiento de su dispositivo, lo que le permitirá cargar fotos y / o archivos durante el proceso de solicitud de préstamo para completar el formulario de solicitud.
+Almacenamiento de datos Almacenamiento: los datos se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+
+    <string name="qxppp_usestr_dierduanwuyong_015">Ímágenes</string>
+    <string name="qxppp_usestr_dierduanwuyong_016">TuPréstamoYa recopila su imagen de identificación y su imagen facial para verificar su verdadera identidad. Subimos imágenes tomando fotos y no accedemos a sus álbumes y otras imágenes. Las imágenes de la tarjeta de identidad recopilada y las imágenes faciales se transmiten y cargan a nuestro servidor (https://peru.prestamomio.com). Utilizaremos el cifrado HTTPS para almacenar sus datos personales. No compartimos ninguno de sus datos personales con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_017">Calendario</string>
+    <string name="qxppp_usestr_dierduanwuyong_018">La autorización para acceder al calendario es para analizar si eres elegible para un préstamo a través del mismo, recordarte la fecha concreta del pago para evitar su vencimiento.
+Almacenamiento de datos Calendario: los datos se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_019">Cuenta principal</string>
+    <string name="qxppp_usestr_dierduanwuyong_020">Permiso para permitir que TuPréstamoYa cargue la información de la cuenta maestra del usuario para la evaluación de riesgos y ofertas de préstamo preaprobadas para usted. Subidas cifradas a https://peru.prestamomio.com externos para identificar y analizar su comportamiento y riesgos, ayudando a prevenir el fraude.</string>
+    <string name="qxppp_usestr_dierduanwuyong_021">Teléfono celular</string>
+    <string name="qxppp_usestr_dierduanwuyong_022">Se requiere su número de teléfono móvil para confirmar su identidad y completar la evaluación de riesgo para evaluar la concesión del préstamo, obtenemos dicha información solo con su consentimiento expreso y la encriptaremos utilizando un protocolo seguro de transmisión de datos y no se compartirá con terceros. .Cuando se completa su proceso de evaluación, su número de teléfono celular se elimina del registro.
+Almacenamiento de datos Teléfono celular: los datos se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_023">Cámara</string>
+    <string name="qxppp_usestr_dierduanwuyong_024">Permite que las aplicaciones accedan a los permisos de la cámara para capturar imágenes / videos, lo que acelera el proceso de solicitud de préstamo.
+Almacenamiento de datos Cámara: los datos Cámara se cifrarán y cargarán en nuestro servidor miembro https://peru.prestamomio.com a través del protocolo HTTPS. En ningún momento compartiremos estos datos con terceros.</string>
+    <string name="qxppp_usestr_dierduanwuyong_02301">Registros de llamadas</string>
+    <string name="qxppp_usestr_dierduanwuyong_02401">Una vez que nos haya autorizado visualizar el registro de llamadas, le haremos una llamada de voz. El motivo de recopilar el registro de llamadas es poder confirmar que está utilizando su propio teléfono móvil para instalar nuestra aplicación, y que reciba nuestra verificación dinámica de contraseña en el dispositivo móvil. Específicamente, monitorearemos si su registro de llamadas recibe el registro de verificación de contraseña dinámica enviado por nuestra aplicación. ólo con su consentimiento explícito,cargaremos y transmitiremos el contenido de los Registros de llamadas a( https://peru.prestamomio.com ) en un entorno de red seguro. En ningún momento compartiremos estos datos con terceros.</string>
+
+    <string name="qxppp_usestr_jieshou1">Hacer clic en \"Aceptar y continuar\" significa que usted ha revisado,leído y aceptado nuestro</string>
+    <string name="qxppp_usestr_jieshou2">\"Aviso de privacidad\"</string>
+    <string name="qxppp_usestr_jieshou3">y</string>
+    <string name="qxppp_usestr_jieshou4">\"Términos de condiciones\"</string>
+    <string name="qxppp_usestr_jieshou5">Por favor revisa el &#060;Aviso de privacidad&#062;</string>
+
+
+    <!--首页-->
+    <string name="zhuyetab_forintudai_inci">Inicio</string>
+    <string name="zhuyetab_forintudai_zuida">Cantidad máxima</string>
+
+    <string name="zhuyetab_forintudai_youshi2">Próximo\npréstamo</string>
+    <string name="zhuyetab_forintudai_youshi4">Próximo\npréstamo +1</string>
+
+    <string name="zhuyetab_forintudai_tianshu1">91Días</string>
+    <string name="zhuyetab_forintudai_tianshu2">Plazo máximo de préstamo 91 días</string>
+
+    <string name="zhuyetab_tudai_des_apl">Aplica Ya</string>
+    <string name="zhuyetab_tudai_des_pri">Aviso de Privacidad</string>
+    <string name="zhuyetab_tudai_des_baj2">Bajo -10%</string>
+    <string name="zhuyetab_tudai_des_car">cargo por servicio</string>
+    <string name="zhuyetab_tudai_des_5est">5 stars Praise</string>
+    <string name="zhuyetab_tudai_des_5est2">Evaluación de 5 estrellas</string>
+
+    <string name="zhuyetab_forintudai_zfq_tishi_wenzi">Se admite pagar en 3-6 cuotas.El plazo del pago será más largo y flexible.</string>
+
+    <!--复贷-->
+    <string name="zhuyetab_tudai_des_fel">Felicidades</string>
+
+
+    <!--等待审核-->
+    <string name="zhuyetab_waitchek_baj">Bajo Revisión</string>
+    <string name="zhuyetab_waitchek_fec2">Fecha de aplicación</string>
+    <string name="zhuyetab_waitchek_jutishijian">30–11-2020</string>
+    <string name="zhuyetab_waitchek_ate">Atención</string>
+    <string name="enel">En el próximo préstamo obtendrá más y el costo se reducirá</string>
+    <string name="zhuyetab_waitchek_100">100%</string>
+    <string name="zhuyetab_waitchek_00">0%d</string>
+    <string name="zhuyetab_waitchek_est">Estamos estimando su préstamo, Preste atención a los resultados de la revisión en la aplicación.</string>
+    <string name="zhuyetab_waitchek_jujuetitle">Solicitud rechazada</string>
+    <string name="zhuyetab_waitchek_kacuotitle">Préstamo fallido</string>
+
+    <string name="zhuyetab_waitchek_este">Este pedido se ha completado, haga clic en el botón para pedir prestado otro</string>
+
+
+    <string name="dandanzhuangtai_term">Terminado</string>
+    <string name="zhuyetab_sihay">Si hay una situación de vencimiento maliciosa, ¡presentaremos una demanda en su contra a través de los canales legales!</string>
+
+
+    <!--还款中-->
+    <string name="zhuyetab_ryingzhong_lty">Devolver Ya</string>
+    <string name="zhuyetab_ryingzhong_pag">Pagar</string>
+    <string name="zhuyetab_ryingzhong_pro">Prolonga 7 días\nmás</string>
+    <string name="zhuyetab_ryingzhong_pro2">Prolonga %d días\nmás</string>
+    <string name="zhuyetab_ryingzhong_atr">Atrasado %d Días</string>
+    <string name="zhuyetab_ryingzhong_dev">Devolución pendiente</string>
+    <string name="zhuyetab_ryingzhong_cantitle">Canal de pago</string>
+    <string name="zhuyetab_ryingzhong_can">Canal de pago 1</string>
+    <string name="zhuyetab_ryingzhong_pag2">Pagar</string>
+    <string name="zhuyetab_ryingzhong_atr2">Atrasado 2 Días</string>
+    <string name="zhuyetab_ryingzhong_fec">La fecha de pago se cambió a</string>
+    <string name="zhuyetab_ryingzhong_fecing">Fecha de pago de tu crédito</string>
+    <string name="zhuyetab_ryingzhong_una">Una vez que ingrese, significa que va a pagar el crédito de su cuenta</string>
+    <string name="zhuyetab_ryingzhong_red">Monto de descuento</string>
+
+    <!--处理中-->
+    <string name="zhuyetab_doingwork_shenhe">Espere por favor</string>
+    <string name="zhuyetab_doingwork_enp">En préstamo</string>
+    <string name="zhuyetab_doingwork_sus">Su solicitud ha sido aprobada. Se esta procesando y dispersando su préstamo.</string>
+
+    <!--放款失败-->
+    <string name="zhuyetab_fangfail_pre">Lo siento</string>
+    <string name="zhuyetab_fangfail_sol">Solicitud rechazada\nLo siento</string>
+    <string name="zhuyetab_fangfail_los">Lo sentimos, el sistema detecta que su puntaje crediticio no es suficiente, solicite después de %s días.</string>
+    <string name="zhuyetab_fangfail_sup">Su puntaje de crédito está por debajo de los requisitos mínimos para préstamos de la plataforma.</string>
+    <string name="zhuyetab_fangfail_els">El sistema detecta que la información de su cuenta de pago es incorrecta, súbala nuevamente.</string>
+    <string name="zhuyetab_fangfail_act">Actualizar cuenta receptora</string>
+    <string name="zhuyetab_fangfail_los1">La próxima fecha de disponibilidad del préstamo es %s</string>
+
+    <!--进件资料-秘鲁-->
+    <string name="jingogojian_xixi_cor">Correo</string>
+    <string name="jingogojian_xixi_ciu">CIUDAD/DISTRITO</string>
+    <string name="jingogojian_xixi_eli">Elige una opción</string>
+    <string name="jingogojian_xixi_dri">Dirección específica</string>
+    <string name="jingogojian_xixi_nac">Nacionalidad</string>
+    <string name="jingogojian_xixi_ocu">Ocupación</string>
+    <string name="jingogojian_xixi_ere">Eres una persona politicamente expuesta?</string>
+    <string name="jingogojian_xixi_pro">Propósito del préstamo（Opcional）</string>
+    <string name="jingogojian_xixi_can">Cantidad esperada del préstamo（Opcional）</string>
+
+    <!--进料资料01-->
+    <string name="jingogojian_xixione_inf">Información personal</string>
+    <string name="jingogojian_xixione_inf_eg">Datos personales</string>
+    <string name="jingogojian_xixione_por">Por favor selecciona</string>
+    <string name="jingogojian_xixione_fue">Fuente principal de ingresos</string>
+    <string name="jingogojian_xixione_ing">Ingresos medis mensuales</string>
+    <string name="jingogojian_xixione_mot">Motivo del préstamo</string>
+
+    <string name="jingogojian_xixione_opt">option 01</string>
+    <string name="jingogojian_xixione_des">Desplegable para más opciones</string>
+
+    <!--进料资料02-->
+    <string name="jingogojian_xixitwo_inf">Información personal</string>
+    <string name="jingogojian_xixitwo_int">Por favor introduce</string>
+    <string name="jingogojian_xixitwo_cor">Correo electrónico</string>
+    <string name="jingogojian_xixitwo_cue">Cuenta whatsapp</string>
+    <string name="jingogojian_xixitwo_loc">Localidad</string>
+    <string name="jingogojian_xixitwo_nom">Nombre de la vía (rellenar antes el campo localidad)</string>
+    <string name="jingogojian_xixitwo_pis">Piso-Puerta</string>
+    <string name="jingogojian_xixitwo_cod">Código postal</string>
+
+    <!--进料资料03-->
+    <string name="jingogojian_xixithird_pri">Contacto de emergencia</string>
+    <string name="jingogojian_xixithird_pri22">Contacto de referencia 1</string>
+    <string name="jingogojian_xixithird_tel">Número de teléfono móvil</string>
+    <string name="jingogojian_xixithird_pre">Prenombres</string>
+    <string name="jingogojian_xixithird_nom">Nombre</string>
+    <string name="jingogojian_xixithird_rel">Relación</string>
+    <string name="jingogojian_xixithird_seg">Contacto de referencia 2</string>
+    <string name="jingogojian_xixithird_par">Para brindarle un buen servicio, active los permisos correspondientes en la configuración del teléfono</string>
+    <string name="jingogojian_xixithird_tit">Título</string>
+
+
+    <!--进料资料04-->
+    <string name="jingogojian_xixifour_inf">Información de identidad</string>
+    <string name="jingogojian_xixifour_fre">Frente</string>
+    <string name="jingogojian_xixifour_atr">Atrás</string>
+    <string name="jingogojian_xixifour_num2">Número de identificación</string>
+    <string name="jingogojian_xixifour_num3">Número de %s</string>
+    <string name="jingogojian_xixifour_pri">Primer Apellido</string>
+    <string name="jingogojian_xixifour_fec">Fecha de nacimiento</string>
+    <string name="jingogojian_xixifour_seg">Segundo Apellido</string>
+    <string name="jingogojian_xixifour_sex">Sexo</string>
+    <string name="jingogojian_xixifour_rec">Reconocimiento facial</string>
+    <string name="jingogojian_xixifour_hag">Haga clic en</string>
+    <string name="jingogojian_xixifour_sel2">Seleccionar tipo de documento</string>
+
+    <!--进料资料05-->
+    <string name="jingogojian_xixifive_met">Información de recibir el préstamo</string>
+    <string name="jingogojian_xixifive_met1">Método de recibir el préstamo</string>
+    <string name="jingogojian_xixifive_cue">Cuenta Bancaria</string>
+    <string name="jingogojian_xixifive_num">Numero de cuenta Billetera Móvil</string>
+    <string name="jingogojian_xixifive_cue2">Cuenta de Billetera electrónica</string>
+    <string name="jingogojian_xixifive_con">Confirmar Cuenta de Billetera electrónica</string>
+    <string name="jingogojian_xixifive_con2">Confirmar Numero de cuenta Billetera Móvil</string>
+    <string name="jingogojian_xixifive_nom">Nombre del banco</string>
+    <string name="jingogojian_xixifive_tip2">Tipo de cuenta</string>
+    <string name="jingogojian_xixifive_con3">Introduce cuenta de bancaria de nuevo</string>
+    <string name="jingogojian_xixifive_los">Los recibos y pagos pueden ser afectados por el horario bancario. Por favor usa la banca en línea para recibir y realizar pagos.</string>
+
+    <!--修改进件页-->
+    <string name="jingogojian_xixifiveb_iip">Información personal</string>
+    <string name="jingogojian_xixifiveb_ccde">Contacto de emergencia</string>
+    <string name="jingogojian_xixifiveb_idi">Información de identidad</string>
+    <string name="jingogojian_xixifiveb_btn">Entregar</string>
+
+    <!--进料资料 审核中-->
+    <string name="jingogojian_xixicheck_esp">Espere por favor</string>
+    <string name="jingogojian_xixicheck_els">¡El sistema está evaluando su crédito!</string>
+    <string name="jingogojian_xixicheck_000">00:00:0%d</string>
+
+    <!--进料资料 底部公共-->
+    <string name="jingogojian_dibugonggong_los">Todos los datos que proporciones serán tratados correctamente y nunca se revelará su información del perfil</string>
+    <string name="jingogojian_dibugonggong_por">Por favor revisa el </string>
+    <string name="jingogojian_dibugonggong_pol">&lt;Aviso de privacidad&gt;</string>
+    <string name="jingogojian_dibugonggong_sig">Siguiente</string>
+
+    <!--商品页面-->
+    <string name="shangpins_foryo_fec10">Por favor selecciona el número de cuotas de pago</string>
+    <string name="shangpins_foryo_fec10_2">Por favor selecciona el plazo de préstamo</string>
+    <string name="shangpins_foryo_mon">Monto a devolver</string>
+    <string name="shangpins_foryo_mon2">Monto del préstamo</string>
+    <string name="shangpins_foryo_s100">S/ 100</string>
+    <string name="shangpins_foryo_s101">+S/ 10</string>
+    <string name="shangpins_foryo_jutishijian">17-01-2021</string>
+    <string name="shangpins_foryo_fec">Fecha de devolución</string>
+    <string name="shangpins_foryo_car">Cargo por demora</string>
+    <string name="shangpins_foryo_fec2">Fecha de pago de tu crédito</string>
+    <string name="shangpins_foryo_det">Detalle</string>
+    <string name="shangpins_foryo_detchangchang">Detalles del préstamo</string>
+    <string name="shangpins_foryo_can">Monto recibido</string>
+    <string name="shangpins_foryo_inte">Interés</string>
+    <string name="shangpins_foryo_can2">Cancelar</string>
+    <string name="shangpins_foryo_abr">ABRIR</string>
+    <string name="shangpins_foryo_con">Confirmar</string>
+    <string name="shangpins_foryo_yav">Lo tengo</string>
+    <string name="shangpins_foryo_sus">Su solicitud de préstamo ha sido enviada con éxito.</string>
+    <string name="shangpins_foryo_10s">10s</string>
+    <string name="shangpins_foryo_pro2">Programa de devolución</string>
+    <string name="shangpins_foryo_inte2">Intereses</string>
+    <string name="shangpins_foryo_can3">Monto recibido</string>
+    <string name="shangpins_foryo_mon4">Monto a devolver</string>
+    <string name="shangpins_foryo_com">Gasto de servicio</string>
+    <string name="shangpins_foryo_pre">Aplicar préstamo</string>
+    <string name="shangpins_foryo_pro3">próximo préstamo Obtenga un aumento en su</string>
+    <string name="shangpins_foryo_plan">Plan de pago en cuotas</string>
+    <string name="shangpins_foryo_plan_2">Plan de pago</string>
+
+    <!--秘鲁-->
+    <string name="bilicout_shamioashu_com">Gasto de impuesto\n(como el IGV)</string>
+    <string name="bilicout_shamioashu_com1">Comisión de cierre de transferencia \n(Cobrado por el Banco)</string>
+
+    <!--还款成功-->
+    <string name="tyty_chengoksdj_has">¡Pagó su préstamo con éxito!</string>
+    <string name="tyty_chengoksdj_pre">Préstamo de nuevo</string>
+    <string name="tyty_chengoksdj_noes">No es necesario completar la información.</string>
+    <string name="tyty_chengoksdj_tas">Tasa de aprobación de auditoría </string>
+    <string name="tyty_chengoksdj_obt1">Obtener un préstamo a más largo plazo</string>
+    <string name="tyty_chengoksdj_obt2">Obtenga un préstamo en  3  minutos</string>
+    <string name="tyty_chengoksdj_dea"> de aumento en el monto del préstamo</string>
+    <string name="tyty_chengoksdj_pre2">TuPréstamoYa</string>
+
+
+    <!--首页结束-->
+
+    <!--我的-->
+    <string name="peizhiandout_egdsgj_per">Perfil</string>
+    <string name="peizhiandout_egdsgj_aju">Ajuste</string>
+    <string name="peizhiandout_egdsgj_avi">Avisos de Privacidad</string>
+    <string name="peizhiandout_egdsgj_ser1">Servicio al cliente en línea</string>
+    <string name="peizhiandout_egdsgj_lib">Libro de reclamaciones</string>
+    <string name="peizhiandout_egdsgj_infp">Información personal</string>
+
+    <string name="peizhiandout_egdsgj_num">Número de teléfono</string>
+    <string name="peizhiandout_egdsgj_cam">Cambiar idioma</string>
+    <string name="peizhiandout_egdsgj_eng">English</string>
+    <string name="peizhiandout_egdsgj_esp">Español</string>
+    <string name="peizhiandout_egdsgj_cer">Cerrar</string>
+    <string name="peizhiandout_egdsgj_hol">Hola!</string>
+    <string name="peizhiandout_egdsgj_por">Por favor, experimente\nPréstamo gratuito</string>
+    <string name="peizhiandout_egdsgj_60miao">60s</string>
+    <string name="peizhiandout_egdsgj_coi">Coin Wallet</string>
+    <string name="peizhiandout_egdsgj_s300">S/ 300-500</string>
+    <string name="peizhiandout_egdsgj_rey">Repay via credit card\nInterest is 0.43%\nInstant loan</string>
+    <string name="peizhiandout_egdsgj_apl">Aplica ya</string>
+    <string name="peizhiandout_egdsgj_dar">Darse cuenta</string>
+    <string name="peizhiandout_egdsgj_hoade">OK</string>
+    <string name="peizhiandout_egdsgj_adv">¡Atención!</string>
+    <string name="peizhiandout_egdsgj_unp">Un pago único de S/ %.2f, puede extender la fecha de vencimiento de reembolso por %s días.\nSi paga una suma inferior a S/ %.2f, no se cambiará el límite de Su última fecha de cambio es el, por lo que deberá pagar a tiempo.</string>
+    <string name="peizhiandout_egdsgj_tuc">Tu crédito tiene %d días vencido, pague de inmediato. Si hay una situación de vencimiento maliciosa, presentaremos una denuncia en su contra a través de los canales legales.</string>
+    <string name="peizhiandout_egdsgj_tucweiwei">Por favor devuelva el préstamo de acuerdo al tiempo especificado, si cae en mora maliciosa, enviaremos su crédito vencido a la plataforma SENTINEL, evite afectar su reputación.</string>
+    <string name="peizhiandout_egdsgj_tuc001">Tu crédito tiene </string>
+    <string name="peizhiandout_egdsgj_tuc002"> días vencido, pague de inmediato. Si hay una situación de vencimiento maliciosa, presentaremos una denuncia en su contra a través de los canales legales.</string>
+    <string name="peizhiandout_egdsgj_pro">Detalle</string>
+    <string name="peizhiandout_egdsgj_act">Actualizar la fecha de vencimiento</string>
+    <string name="peizhiandout_egdsgj_tar">Tarifa de extensión</string>
+    <string name="peizhiandout_egdsgj_car">Cargo por demora</string>
+    <string name="peizhiandout_egdsgj_mon">Monto del pago</string>
+
+    <string name="peizhiandout_egdsgj_tom">Tomar fotos</string>
+    <string name="peizhiandout_egdsgj_sel">Seleccionar del álbum</string>
+
+    <string name="peizhiandout_egdsgj_xiop">Usted puede extender su fecha de pago %s días, con un pago único de  S/ %.2f .Si no cumplió con el pago de su préstamo, deberá pagar adicionalmente un recargo por los días de atraso.</string>
+
+    <!--我的结束-->
+
+    <!--电话客服页面-->
+    <!--选择语言页面-->
+    <string name="tuichudengl">Salir</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+
+    <string name="jineshow">más</string>
+    <string name="jineshow2">ocultar</string>
+
+    <string name="noselectdateflag">Seleccione el plazo del préstamo</string>
+    <string name="guoqiguoqi">boton Perfil -> Salir para volver a iniciar sesion</string>
+    <string name="meiyourenlianqingshangcahun">Suba la foto de cara</string>
+
+    <string name="kehuzhanghao1">aaf9b53a-a73</string>
+    <string name="kehuzhanghao2">b-4b4a-99</string>
+    <string name="kehuzhanghao3">39-1854</string>
+    <string name="kehuzhanghao4">0e97a</string>
+    <string name="kehuzhanghao5">0fe</string>
+
+
+    <string name="wudandanbiaoti">Mi Pedido</string>
+    <string name="wudandantishiti">No se encontró orden relacionado</string>
+    <string name="duochanpinzhuangtai_yuqi">Atrasado</string>
+
+    <string name="zhanzhanbtn_wenan">Regresar</string>
+
+    <string name="shenfenzheng_shenfentukongtishi">Suba la foto de documento de identidad</string>
+    <string name="shenfenzheng_shenfenkakongtishi">Ingrese el número del documento de identidad</string>
+
+
+    <string name="querenyeriqitishi">Por favor seleccione una fecha de pago</string>
+
+    <string name="newtankuangsi">Sí</string>
+    <string name="newtankuangno">No</string>
+    <string name="newtankuang_jichuwanliu">Continue a solicitar su préstamo ytendrá la oportunidad de obtener hasta S/ %s en efectivo.¿Está seguro de abandonarlo?</string>
+    <string name="newtankuang_lianxirentishi">Esta información solo se utiliza para evaluar su crédito, no contactaremos a ningún contacto que rellene, tenemos un mecanismo perfecto para garantizar la seguridad de su información, por favor, no se preocupe por rellenarla.</string>
+    <string name="newtankuang_shenfentishi">La información solo se utiliza para verificar su identidad. Mantenemos su información personal privada y segura durante todo el proceso.</string>
+    <string name="newtankuang_quejietishi">¿Eres un usuario de alta calidad. después de que este préstamo tenga éxito, el próximo préstamo será más alto, la tasa de interés será más baja y el plazo será más largo. ¿ estás seguro de que quieres renunciar?</string>
+
+    <string name="juhecall1">FAQ</string>
+    <string name="juhecall2">Servicio al cliente en linea</string>
+    <string name="juhecall3">Progreso del tratamiento</string>
+    <string name="juhecall4">Servicio al Cliente</string>
+    <string name="juhecall5">Cobro de quejas</string>
+
+    <string name="repy_tousudianhua">Número de denuncia:</string>
+    <string name="repy_tousuwangzhi">WA: </string>
+    <string name="repy_tousuquxiao">Cierre</string>
+    <string name="repy_tousujixu">Quejas</string>
+    <string name="repy_tousurukou">Queja ahora</string>
+
+
+    <string name="repy_beforetitle">Consejos:</string>
+    <string name="repy_zhuanyi">%s</string>
+    <string name="repy_before11">1. El reembolso a tiempo puede aumentar el monto y el plazo del próximo préstamo. Además, el próximo monto más alto puede ser hasta </string>
+    <string name="repy_before12">S/ </string>
+    <string name="repy_before13"> .</string>
+    <string name="repy_before21">2.Si se atrasa el reembolso, se asumirá la responsabilidad legal y se impondrá una multa diaria de</string>
+    <string name="repy_before22">S/ </string>
+    <string name="repy_before23"> por retraso.</string>
+
+    <string name="wtoususuus">Cobro de quejas</string>
+    <string name="wodelianxiwomen">Contacta con nosotros</string>
+    <string name="quanxianbiaotixixnxin">Declaración de divulgación</string>
+
+    <string name="erheyidaojishi1">Tasa de aprobación 99% si da clic para</string>
+    <string name="erheyidaojishi2">solicitar dentro de</string>
+    <string name="erheyidaojishi3">Pagar ahora</string>
+    <string name="reinterpretar_val">Reinterpretar</string>
+    <string name="jinjingogo_shangchuan">Su solicitud de préstamo está siendo enviada, por favor no cierre la aplicación para evitar pérdidas innecesarias.</string>
+    <string name="jinjingogo_falllacarga">Falló la carga, por favor vuelva a intentarlo</string>
+
+
+    <string name="text_selected_c">Por favor seleccione su país</string>
+    <string name="text_eg_name">Ecuador</string>
+    <string name="text_eg_info1a">Apellido</string>
+    <string name="text_eg_info1b">Nombre</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise">
+
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/sjljf_Uudiog_djgodg"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/golbe_sjflT123_dingbuview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="18dp"
+        android:src="@mipmap/xinxiyemian_fanhui" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sjljf_Uudiog_djgodg"
+        android:layout_alignBottom="@+id/sjljf_Uudiog_djgodg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="@string/zhuyetab_tudai_des_pri"
+        android:textColor="@color/sezhi_argb_heise"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sjljf_Uudiog_djgodg"
+        android:gravity="center"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/wangluocuowu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/sjljf_Uudiog_djgodg"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="201dp"
+            android:layout_height="155dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="150dp"
+            android:src="@mipmap/wangyeweb_cuowu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error de red"
+            android:textColor="@color/sezhi_argb_baise"/>
+    </LinearLayout>
+
+</RelativeLayout>

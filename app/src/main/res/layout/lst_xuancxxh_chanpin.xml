@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ShuruzongXinxi1tttxxtt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bj_lkujyhtgfaf"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/recommendGoodsIv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bj_nnnhyhyyhhy" />
+
+    <RelativeLayout
+        android:id="@+id/recommendGoodsRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/recommendGoodsIv"
+        android:layout_alignBottom="@+id/recommendGoodsIv"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/recommendGoodsIv"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/peizhiandout_egdsgj_coi"
+            android:textColor="@color/sezhi_argb_32467B"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/str_300_500e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:text="@string/peizhiandout_egdsgj_s300"
+            android:textColor="@color/sezhi_argb_FF9A30"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/str_300_500e"
+            android:text="@string/shangpins_foryo_mon"
+            android:textColor="@color/sezhi_argb_73000000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/recommendGoodsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recommendGoodsRl"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="126dp"
+        android:text="@string/peizhiandout_egdsgj_rey" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recommendGoodsRl"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bj_thgsdthgsfew"
+        android:padding="12dp"
+        android:text="@string/peizhiandout_egdsgj_apl"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>

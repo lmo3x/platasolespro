@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_141414"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/zhanqichenggongming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ruanjianapp_mingzi"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/useimg_hnnjhtgrhh"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zhuyetab_ryingzhong_fec"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/zhanqihuankuanqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zhuyetab_waitchek_jutishijian"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/sezhi_argb_FF674F"
+        android:textSize="26dp" />
+
+
+
+    <TextView
+        android:id="@+id/quxiaoquxiao_fjdoj_buyaoquan"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/bj_userallow_yes"
+        android:gravity="center"
+        android:layout_marginTop="152dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/zhanzhanbtn_wenan"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/hgdasdhfjhgyyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shangpins_foryo_10s"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/sezhi_argb_999999"
+        android:textSize="16dp"/>
+</LinearLayout>

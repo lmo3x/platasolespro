@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PwdShruShitu">
+        <attr name="biankuangKuandu" format="dimension"/>
+        <attr name="biankuanYanse" format="color"/>
+        <attr name="biankuangYuanjiao" format="dimension"/>
+        <attr name="pwdChangdu" format="integer"/>
+        <attr name="pwdkongjianKuandu" format="dimension"/>
+        <attr name="pwdYanse" format="color"/>
+        <attr name="pwdYuanjiao" format="dimension"/>
+        <attr name="pwdKongjianDaxiao" format="dimension"/>
+        <attr name="pwdDaxiao" format="dimension"/>
+        <attr name="pwdNeiBianju" format="dimension"/>
+    </declare-styleable>
+
+    <!-- 自定义验证码输入框-->
+    <declare-styleable name="shurukuangShuliang">
+        <!--输入框的数量-->
+        <attr name="yzm_shurukuang_shuliang" format="integer" />
+        <!--输入类型-->
+        <attr name="yzm_shurukuang_leixing">
+            <enum name="number" value="0" />
+            <enum name="numberPassword" value="1" />
+            <enum name="text" value="2" />
+            <enum name="textPassword" value="3" />
+        </attr>
+        <!--输入框的宽度-->
+        <attr name="yzm_shurukuang_kuandu" format="dimension|reference" />
+        <!--输入框的高度-->
+        <attr name="yzm_shurukuang_gaodu" format="dimension|reference" />
+        <!--输入框文字颜色-->
+        <attr name="yzm_shurukuang_yanse" format="color|reference" />
+        <!--输入框文字大小-->
+        <attr name="yzm_shurukuang_daxiao" format="integer" />
+        <!--<attr name="vcv_et_text_size" format="dimension|reference" />-->
+        <!--输入框背景-->
+        <attr name="yzm_shurukuang_beijing" format="reference" />
+        <!--光标样式-->
+        <attr name="yzm_shurukuang_guangbiaoyangzi" format="reference" />
+        <!--是否隐藏光标-->
+        <attr name="yzm_shurukuang_guangbiaokejian" format="boolean" />
+        <!--输入框间距，不输入则代表平分-->
+        <attr name="yzm_shurukuang_pingfenfou" format="dimension|reference" />
+
+    </declare-styleable>
+
+    <!--wheelview-->
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="wheelview_textSize" format="dimension"/>
+        <attr name="wheelview_textColorOut" format="color"/>
+        <attr name="wheelview_textColorCenter" format="color"/>
+        <attr name="wheelview_dividerColor" format="color"/>
+        <attr name="wheelview_dividerWidth" format="dimension"/>
+        <attr name="wheelview_lineSpacingMultiplier" format="float"/>
+    </declare-styleable>
+</resources>

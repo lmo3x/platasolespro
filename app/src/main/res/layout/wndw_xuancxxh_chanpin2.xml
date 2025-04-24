@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bj_gnngbfvaeeee"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/readDataTopText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/jingogojian_xixithird_tit"
+        android:textColor="@color/sezhi_argb_32467B"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jythgrsdtfygukyjh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jingogojian_xixithird_par"
+        android:textColor="@color/sezhi_argb_a6000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/quxiaoquxiao_fjdoj_buyaoquan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bj_efawesgrfae"
+            android:gravity="center"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:text="@string/shangpins_foryo_can2"
+            android:textColor="@color/sezhi_argb_baise"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/gaoding_sure_djdj_yaogeiwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bj_thgsdthgsfew"
+            android:gravity="center"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:text="@string/shangpins_foryo_con"
+            android:textColor="@color/sezhi_argb_baise"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

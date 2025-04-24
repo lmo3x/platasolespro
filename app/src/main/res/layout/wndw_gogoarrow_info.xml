@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bj_hgfergfrgrgr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/jythgrfsh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--            <View-->
+<!--                android:id="@+id/iconCloseVl"-->
+<!--                android:layout_width="35dp"-->
+<!--                android:layout_height="6dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:background="@drawable/bj_nmyjhtgrfeada" />-->
+
+            <RelativeLayout
+                android:id="@+id/jyhtgrefasg"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="right">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:src="@mipmap/tognyong_huiseclose" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/jingogojian_xixione_des"
+                android:textColor="@color/sezhi_argb_333333"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/popJinJianZiLiao01Rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollbarFadeDuration="0"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            android:scrollbarSize="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

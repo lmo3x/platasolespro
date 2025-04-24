@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wndwtiqian_ddfsfs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dp_10"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:text="@string/repy_before11"
+    android:textColor="@color/sezhi_argb_a6000000"
+    android:textSize="16sp" />

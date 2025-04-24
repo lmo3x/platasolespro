@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_F8F8F8">
+
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/sjljf_Uudiog_djgodg"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/golbe_sjflT123_dingbuview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/xinxiyemian_fanhui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sjljf_Uudiog_djgodg"
+        android:layout_alignBottom="@+id/sjljf_Uudiog_djgodg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="@string/juhecall5"
+        android:textColor="@color/sezhi_argb_222222"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/jdglsfasfhfgdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sjljf_Uudiog_djgodg"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/telwhats_row1"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bj_jinjiangogobg_bai"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/juhecall1" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/callcallarow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telwhats_row2"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/bj_jinjiangogobg_bai"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/juhecall2" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/callcallarow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telwhats_row3"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bj_jinjiangogobg_bai"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/juhecall3" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/callcallarow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telwhats_row4"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bj_jinjiangogobg_bai"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/juhecall4" />
+
+                <ImageView
+                    android:id="@+id/telwhats_row4_jiantou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/callcallarow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telwhats_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/putongdianhuarl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/dadianhua_dianhua_buju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/dzhaowmen_mokuaidbg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/dadianhua_dianhua_wenan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/dianhua_dingbubej"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="17dp"
+                            android:src="@mipmap/useimg_asqwweewrwe" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="@string/peizhiandout_egdsgj_num"
+                            android:textColor="@color/sezhi_argb_baise"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/putongwhatsrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <LinearLayout
+                        android:id="@+id/dadianhua_wahts_buju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/dzhaowmen_mokuaidbg"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/dadianhua_whats_wenan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/dianhua_dingbubej"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="17dp"
+                            android:src="@mipmap/useimg_wqewrtrrr" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="@string/jingogojian_xixitwo_cue"
+                            android:textColor="@color/sezhi_argb_baise"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/putongyouxiangrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/dadianhua_youxiang_buju"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/dzhaowmen_mokuaidbg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/dadianhua_youxiang_wenan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="56dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="@mipmap/dianhua_dingbubej"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="17dp"
+                            android:src="@mipmap/useimg_waesrdtrrr" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="@string/jingogojian_xixitwo_cor"
+                            android:textColor="@color/sezhi_argb_baise"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telwhats_row5"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bj_jinjiangogobg_bai"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/juhecall5" />
+
+                <ImageView
+                    android:id="@+id/telwhats_row5_jiantou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/callcallarow" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/tousu_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/zhaowomen_tousudianhuall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="19dp"
+                    android:background="@drawable/dzhaowmen_mokuaidbg"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/repy_tousudianhua"
+                        android:textColor="@color/sezhi_argb_a6000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/telwhatstousu_dianhuanum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/sezhi_argb_FF674F"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/zhaowomen_tousuwall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="19dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/dzhaowmen_mokuaidbg"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/repy_tousuwangzhi"
+                        android:textColor="@color/sezhi_argb_a6000000"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/telwhatstousu_wangzhiurl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/sezhi_argb_FF674F"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/telwhatstousu_txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/sezhi_argb_baise"
+                    android:padding="14dp"
+                    android:textColor="@color/sezhi_argb_a6000000"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/callusdesp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/sezhi_argb_999999"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

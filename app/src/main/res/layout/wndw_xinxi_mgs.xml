@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bj_gnngbfvaeeee"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="23dp"
+        android:src="@mipmap/useimg_hythgfesgg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/peizhiandout_egdsgj_dar"
+        android:textColor="@color/sezhi_argb_32467B"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/popMessageRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bj_asdsfznnnhhhh" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bj_efawesgrfae"
+        android:gravity="center"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:text="@string/peizhiandout_egdsgj_hoade"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

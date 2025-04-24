@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636751298991",
+    "project_id": "pe426-tuprestamoya",
+    "storage_bucket": "pe426-tuprestamoya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636751298991:android:f38eaf715921055bebef5a",
+        "android_client_info": {
+          "package_name": "com.create.delicious.list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs27ULDD82-MLgIa1fvtDDWTrFn8Rcwkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

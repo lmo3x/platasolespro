@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bj_gefxxxggth"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protegemos su seguridad de privacidad con el medio más profesional"
+        android:textColor="@color/sezhi_argb_333333"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bj_hgfafesrlvlv1"
+        android:layout_marginTop="12dp"
+        android:padding="@dimen/dp_10"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/damuzhishu" />
+
+        <TextView
+            android:id="@+id/txdet1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            tools:text="Casi 52K personas solicitaron con éxito en los últimos 3 días"
+            android:textColor="@color/sezhi_argb_333333"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

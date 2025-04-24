@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sezhi_argb_heise">#FF000000</color>
+    <color name="sezhi_argb_touming">#00000000</color>
+    <color name="sezhi_argb_baise">#FFFFFFFF</color>
+    <color name="sezhi_argb_a6ffffff">#A6FFFFFF</color>
+    <color name="sezhi_argb_73000000">#73000000</color>
+    <color name="sezhi_argb_40000000">#40000000</color>
+    <color name="sezhi_argb_a6000000">#a6000000</color>
+    <color name="sezhi_argb_d9000000">#d9000000</color>
+    <color name="sezhi_argb_5377D5">#5377D5</color>
+    <color name="sezhi_argb_265377D5">#265377D5</color>
+
+    <color name="sezhi_argb_F7F9FC">#F7F9FC</color>
+    <color name="sezhi_argb_32467B">#32467B</color>
+    <color name="sezhi_argb_444444">#444444</color>
+
+    <color name="sezhi_argb_FB4E4E">#FB4E4E</color>
+    <color name="sezhi_argb_0FFB4E4E">#0FFB4E4E</color>
+    <color name="sezhi_argb_26FB4E4E">#26FB4E4E</color>
+
+    <color name="sezhi_argb_BEC8E1">#BEC8E1</color>
+
+    <color name="sezhi_argb_FF9A30">#FF9A30</color>
+
+    <color name="sezhi_argb_D8D8D8">#D8D8D8</color>
+    <color name="sezhi_argb_FD3A3A">#FD3A3A</color>
+
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textsezhi_argb_out">#a8a8a8</color>
+
+    <color name="sezhi_argb_EFEDED">#EFEDED</color>
+    <color name="sezhi_argb_B7AFAF">#B7AFAF</color>
+    <color name="sezhi_argb_9D9D9D">#9D9D9D</color>
+    <color name="sezhi_argb_141414">#141414</color>
+    <color name="sezhi_argb_838990">#838990</color>
+    <color name="sezhi_argb_E20C2B">#E20C2B</color>
+    <color name="sezhi_argb_BCBCBC">#BCBCBC</color>
+    <color name="sezhi_argb_4B4B4B">#4B4B4B</color>
+    <color name="sezhi_argb_888888">#888888</color>
+    <color name="sezhi_argb_FF7B28">#FF7B28</color>
+    <color name="sezhi_argb_6C6C6C">#6C6C6C</color>
+    <color name="sezhi_argb_574646">#574646</color>
+    <color name="sezhi_argb_FF674F">#FF674F</color>
+    <color name="sezhi_argb_999999">#999999</color>
+    <color name="sezhi_argb_56A7C4">#56A7C4</color>
+    <color name="sezhi_argb_213137">#213137</color>
+    <color name="sezhi_argb_575757">#575757</color>
+    <color name="sezhi_argb_343434">#343434</color>
+    <color name="sezhi_argb_989898">#989898</color>
+    <color name="sezhi_argb_E7DDDB">#E7DDDB</color>
+    <color name="sezhi_argb_FF6028">#FF6028</color>
+    <color name="sezhi_argb_3E8FFF">#3E8FFF</color>
+    <color name="sezhi_argb_FF9653">#FF9653</color>
+    <color name="sezhi_argb_AF9E9E">#AF9E9E</color>
+    <color name="sezhi_argb_FFC1B7">#FFC1B7</color>
+    <color name="sezhi_argb_333333">#333333</color>
+    <color name="sezhi_argb_5A2C25">#5A2C25</color>
+    <color name="sezhi_argb_E8482B">#E8482B</color>
+    <color name="sezhi_argb_F74545">#F74545</color>
+    <color name="sezhi_argb_FF8B7D">#FF8B7D</color>
+    <color name="sezhi_argb_A80000">#A80000</color>
+    <color name="sezhi_argb_F7C745">#F7C745</color>
+    <color name="sezhi_argb_FF7474">#FF7474</color>
+    <color name="sezhi_argb_F8F8F8">#F8F8F8</color>
+    <color name="sezhi_argb_222222">#222222</color>
+    <color name="sezhi_argb_E7E7E7">#E7E7E7</color>
+    <color name="sezhi_argb_59351F">#59351F</color>
+    <color name="sezhi_argb_F64E4E">#F64E4E</color>
+    <color name="sezhi_argb_EFEFEF">#EFEFEF</color>
+    <color name="sezhi_argb_DEDEDE">#DEDEDE</color>
+    <color name="sezhi_argb_555555">#555555</color>
+    <color name="sezhi_argb_E3ECF0">#E3ECF0</color>
+    <color name="sezhi_argb_DDDDDD">#DDDDDD</color>
+    <color name="sezhi_argb_F7DCCB">#F7DCCB</color>
+    <color name="sezhi_argb_61A6DB">#61A6DB</color>
+    <color name="sezhi_argb_FFE9DC">#FFE9DC</color>
+    <color name="sezhi_argb_F4F4F4">#F4F4F4</color>
+    <color name="sezhi_argb_D7D7D7">#D7D7D7</color>
+    <color name="sezhi_argb_CDCDCD">#CDCDCD</color>
+    <color name="sezhi_argb_969696">#969696</color>
+    <color name="sezhi_argb_19C04C">#19C04C</color>
+    <color name="sezhi_argb_FFEFE4">#FFEFE4</color>
+    <color name="sezhi_argb_FFD4B9">#FFD4B9</color>
+    <color name="sezhi_argb_DADEE2">#DADEE2</color>
+    <color name="sezhi_argb_195CFF">#195CFF</color>
+    <color name="sezhi_argb_185AFF">#185AFF</color>
+    <color name="sezhi_argb_E7EDF2">#E7EDF2</color>
+    <color name="sezhi_argb_666666">#666666</color>
+    <color name="sezhi_argb_B1B1B1">#B1B1B1</color>
+
+    <color name="sezhi_argb_A1000000">#A1000000</color>
+    <color name="sezhi_argb_0D1B32">#0D1B32</color>
+</resources>

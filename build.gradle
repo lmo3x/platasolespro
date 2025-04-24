@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+
+        jcenter()
+        google()
+        mavenCentral()//新增
+        maven { url 'https://www.jitpack.io' }
+//        maven{url 'https://maven.aliyun.com/nexus/content/groups/public/'}
+//        maven{url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        // Make sure that you have the following two repositories
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.3.0"
+     classpath 'com.google.gms:google-services:4.3.14'
+//        // Add the dependency for the Crashlytics Gradle plugin
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()//新增
+        maven { url 'https://jitpack.io' }
+//        maven{url 'https://maven.aliyun.com/nexus/content/groups/public/'}
+//        maven{url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

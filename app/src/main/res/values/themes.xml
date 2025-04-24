@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PPPLLS" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/sezhi_argb_touming</item>
+        <item name="colorPrimaryDark">@color/sezhi_argb_touming</item>
+        <item name="colorAccent">@color/sezhi_argb_FF7B28</item>
+
+        <item name="colorPrimaryVariant">@color/sezhi_argb_touming</item>
+        <item name="colorOnPrimary">@color/sezhi_argb_touming</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sezhi_argb_touming</item>
+        <item name="colorSecondaryVariant">@color/sezhi_argb_touming</item>
+        <item name="colorOnSecondary">@color/sezhi_argb_touming</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Status bar color. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/sezhi_argb_141414</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="WelcomeTheme" parent="Theme.PPPLLS">
+<!--        <item name="android:windowBackground">@mipmap/aopenstartbg</item>-->
+    </style>
+
+    <style name="Theme.PPPLLS.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 设置pop由下自上的动画 -->
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/paowindowxianshi</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/paowindowmis</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+    <style name="MyToolsAddAvatar" parent="Theme.PPPLLS">
+        <!--背景色,此处的背景色请一定要设置为透明度背景色-->
+        <item name="android:windowBackground">@color/sezhi_argb_touming</item>
+        <!--window Is Translucent 窗口是半透明的-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--window No Title窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--弹出动画-->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

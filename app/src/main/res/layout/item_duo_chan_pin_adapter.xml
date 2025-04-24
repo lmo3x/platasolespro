@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/itemType01Rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/rankingIv"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/duochanpinunstatus1" />
+
+
+        <TextView
+            android:id="@+id/rankingTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rankingIv"
+            android:layout_alignTop="@+id/rankingIv"
+            android:layout_alignEnd="@+id/rankingIv"
+            android:layout_alignBottom="@+id/rankingIv"
+            android:gravity="center_horizontal"
+            android:paddingTop="7dp"
+            android:textColor="@color/sezhi_argb_333333"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/duoChanPinItemIv"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@mipmap/duochanpinhuoyan" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/duoChanPinItemTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/duoChanPinItemIv"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@+id/duoChanPinItemIv"
+                    android:text="APPName"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="22dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="52dp"
+                    android:src="@mipmap/duochanpinhuoyan" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/amountOfMoneyTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:text="S/1,000.00"
+            android:textColor="@color/sezhi_argb_333333"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/duoChanPinItemBtn"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/amountOfMoneyTv"
+            android:layout_height="44dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="48dp"
+            android:background="@drawable/bj_userallow_yes"
+            android:gravity="center"
+            android:minWidth="116dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/zhuyetab_tudai_des_apl"
+            android:textColor="@color/sezhi_argb_baise"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/itemType02Rl"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/sadjoigjfasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/duoChanPinItemRectangleView"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dengdai_miaoshu_bg" />
+
+            <TextView
+                android:id="@+id/duoChanPinItemStateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/sezhi_argb_FF7B28"
+                android:textSize="11dp"
+                tools:text="APPName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/glrewrewtyeyer"
+            android:layout_below="@+id/sadjoigjfasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/dengdai_miaoshuwe_bg">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/weixiadanmore3"
+                android:layout_width="187dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/weixiadanmore3beijing"
+                android:gravity="center"
+                android:textColor="@color/sezhi_argb_FF7474"
+                android:textSize="11dp"
+                android:text="Aplicable" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sadjoigjfasa"
+
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/duoChanPinItem01Iv"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@mipmap/duochanpinhuoyan" />
+
+                <TextView
+                    android:id="@+id/duoChanPinItem01Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/duoChanPinItem01Iv"
+                    android:gravity="center"
+                    android:maxWidth="100dp"
+                    android:text="APPName"
+                    android:textColor="@color/sezhi_argb_heise"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/duoChanPinItemBtn2"
+                    android:layout_width="116dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/bj_userallow_yes"
+                    android:gravity="center"
+                    android:minWidth="116dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="Espere por favor"
+                    android:textColor="@color/sezhi_argb_baise"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

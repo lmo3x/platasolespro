@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise">
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/jingojian1fanhui"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/useimg_likujyhtgreff"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview" />
+
+    <LinearLayout
+        android:id="@+id/layoutloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/reg_req_code_gif_view"
+            android:layout_marginTop="127dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/zhuanquanquan_donghua" />
+
+        <TextView
+            android:id="@+id/asdfh_odfj_djgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="Su solicitud de préstamo está siendo enviada, por favor no cierre la aplicación para evitar pérdidas innecesarias."
+            android:textColor="@color/sezhi_argb_heise"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/asdfh_TYodfj_djgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="7S"
+            android:textColor="@color/sezhi_argb_999999"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutshibaile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="127dp"
+            android:src="@mipmap/jingogoshangliangcha" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/jinjingogo_falllacarga"
+            android:textColor="@color/sezhi_argb_heise"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/jingojian1submit"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bj_thgsdthgsfew"
+            android:gravity="center"
+            android:text="@string/reinterpretar_val"
+            android:textColor="@color/sezhi_argb_baise"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

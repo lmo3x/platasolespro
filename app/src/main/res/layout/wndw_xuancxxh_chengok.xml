@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bj_gnngbfvaeeee"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bj_gthgrfegthth13"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/daikuanvalue1"
+                    android:text="Monto del préstamo "
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/daikuanvalue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="S/--"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shangpins_foryo_can"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/daikuanvalue2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="S/--"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hr76ef_jg2323Rs_fv51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/shangpins_foryo_sus"
+            android:textColor="@color/sezhi_argb_FF7B28"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/hhuandnsRiriqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:text="dddd "
+            android:textColor="@color/sezhi_argb_heise"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/quxiaoquxiao_fjdoj_buyaoquan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/erheyiclose" />
+
+    <TextView
+        android:id="@+id/hgdasdhfjhgyyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="16dp" />
+</LinearLayout>

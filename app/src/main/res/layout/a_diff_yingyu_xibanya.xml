@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise">
+
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/sjljf_Uudiog_djgodg"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/golbe_sjflT123_dingbuview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/xinxiyemian_fanhui" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sjljf_Uudiog_djgodg"
+        android:layout_alignBottom="@+id/sjljf_Uudiog_djgodg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="@string/peizhiandout_egdsgj_cam"
+        android:textColor="@color/sezhi_argb_heise"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/me_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sjljf_Uudiog_djgodg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/chasidjan_sssy_buju2"
+            android:layout_width="0dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:saveEnabled="false"
+            android:gravity="center"
+            android:background="@drawable/dageiwm_beijingunck">
+
+            <ImageView
+                android:id="@+id/chasidjan_sssy_iv2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/useimg_hgfeaesgrfea" />
+
+            <TextView
+                android:id="@+id/chasidjan_sssy_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/peizhiandout_egdsgj_esp"
+                android:textColor="@color/sezhi_argb_FF674F"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chasidjan_sssy_buju1"
+            android:layout_width="0dp"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:background="@drawable/selector_dawomen_bj"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/chasidjan_sssy_iv1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/useimg_uk" />
+
+            <TextView
+                android:id="@+id/chasidjan_sssy_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/peizhiandout_egdsgj_eng"
+                android:textColor="@color/sezhi_argb_baise"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/jfgdfsajosichuchu"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/bj_hgfafesrgfeasrg"
+        android:gravity="center"
+        android:text="@string/tuichudengl"
+        android:textColor="@color/sezhi_argb_baise"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

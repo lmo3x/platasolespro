@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bj_plan_2"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="18dp">
+
+            <TextView
+                android:id="@+id/devolucion001Tv"
+                tools:text="@string/shangpins_foryo_mon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sezhi_argb_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/devolucion001Tv_content"
+                tools:text="S/1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/sezhi_argb_333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/devolucion002Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/zhuyetab_waitchek_fec2"
+                android:textColor="@color/sezhi_argb_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/devolucion002Tv_content"
+                tools:text="30–11-2020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/sezhi_argb_333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/jklsjfldskjLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bj_plan_1"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/jklsjfldskjTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/3"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

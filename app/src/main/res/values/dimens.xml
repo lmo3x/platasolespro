@@ -1,0 +1,20 @@
+<resources>
+
+    <!--卡片布局-->
+    <dimen name="yuanjiao_8dp">8dp</dimen>
+    <dimen name="yuanjiao_5dp">5dp</dimen>
+    <dimen name="yuanjiao_2dp">2dp</dimen>
+
+    <!--pickview 添加-->
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+
+    <!-- 顶部按钮padding -->
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
+    <!-- 选项文字大小 -->
+
+</resources>

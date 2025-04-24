@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/maijegiorefefef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/golbe_sjflT123_dingbuview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/maijegiorefefef"
+        android:layout_weight="1">
+
+        <View android:layout_width="match_parent"
+            android:layout_height="456dp"
+            android:background="@drawable/bg_firdfdsfdsfds"  />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:background="@mipmap/xuanzeqian_mengban" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/homeTopInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp">
+
+            <ImageView
+                android:id="@+id/hgfasgBAKCKC"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/useimg_likujyhtgreff"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/yemianappmingzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/ruanjianapp_mingzi"
+                android:textColor="@color/sezhi_argb_838990"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/hgfasgBAKCKC"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/hgfasgBAKCKC" />
+
+            <ImageView
+                android:id="@+id/jyhyjhtgrtthg"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/useimg_nbbnbgvfgh"
+                app:layout_constraintBottom_toBottomOf="@+id/hgfasgBAKCKC"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/hgfasgBAKCKC" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/homeTopInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="156dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@mipmap/chanpin_cenbg">
+
+                    <TextView
+                        android:id="@+id/str_Monto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="18dp"
+                        android:text="@string/shangpins_foryo_mon2"
+                        android:textColor="@color/sezhi_argb_heise"
+                        android:textSize="14dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/ashgfsadsfhga2dfh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/str_Monto"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <TextView
+                            android:id="@+id/adsf_b354GJ_jgwwe3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/sezhi_argb_heise"
+                            android:textSize="45dp"
+                            android:textStyle="bold"
+                            tools:text="" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toStartOf="@+id/adsf_b354GJ_jgwwe3"
+                            android:text="@string/geshizhuanyi_jsl_form4"
+                            android:textColor="@color/sezhi_argb_heise"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/xuanqianlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="20dp"
+                    tools:visibility="gone"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/showmoreorhide"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/showhide"
+                    android:gravity="center"
+                    android:text="@string/jineshow"
+                    android:textColor="@color/sezhi_argb_baise"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/showmoreorhide2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/showhide"
+                    android:gravity="center"
+                    android:text="@string/jineshow2"
+                    android:textColor="@color/sezhi_argb_baise"
+                    android:visibility="gone" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/jinDuBottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="23dp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/readDataTopIcon"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginRight="11dp"
+                                android:src="@mipmap/useimg_jhgsdthrs"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                android:id="@+id/readDataTopText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/sezhi_argb_333333"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/devolucionLl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/kjhkjythgrjhgfefwdqqYTdg34dsg"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginRight="20dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <RelativeLayout
+                                android:id="@+id/asjuyhtgr"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/devolucionTv01"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/bj_wwefrgfesrdthg"
+                                    android:gravity="center"
+                                    android:text="@string/shangpins_foryo_jutishijian"
+                                    android:textColor="@color/sezhi_argb_baise"
+                                    android:textSize="16dp" />
+
+                                <ImageView
+                                    android:layout_width="18dp"
+                                    android:layout_height="18dp"
+                                    android:layout_alignParentRight="true"
+                                    android:background="@color/sezhi_argb_FB4E4E"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/devolucionTv01"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/zhuyetab_forintudai_youshi2"
+                                    android:textColor="@color/sezhi_argb_73000000"
+                                    android:textSize="12dp"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content" />
+
+                            <RelativeLayout
+                                android:id="@+id/hrgef_jgRRs_fFCfijs223"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/jirm_tiaomu_ccxxTShiajin"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/bj_grerrrrrrr"
+                                    android:gravity="center"
+                                    android:text="@string/shangpins_foryo_jutishijian"
+                                    android:textColor="@color/sezhi_argb_BEC8E1"
+                                    android:textSize="16dp" />
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@mipmap/useimg_thgrfeasdg" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/jirm_tiaomu_ccxxTShiajin"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/zhuyetab_forintudai_youshi2"
+                                    android:textColor="@color/sezhi_argb_73000000"
+                                    android:textSize="12dp" />
+
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content" />
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/devolucionTv03"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/bj_grerrrrrrr"
+                                    android:gravity="center"
+                                    android:text="@string/shangpins_foryo_jutishijian"
+                                    android:textColor="@color/sezhi_argb_BEC8E1"
+                                    android:textSize="16dp" />
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="2dp"
+                                    android:src="@mipmap/useimg_thgrfeasdg" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/devolucionTv03"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="center"
+                                    android:text="@string/zhuyetab_forintudai_youshi2"
+                                    android:textColor="@color/sezhi_argb_73000000"
+                                    android:textSize="12dp" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/hr76ef_jg2323Rs_fv23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="8dp"
+                            tools:visibility="gone"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/jojoetwesqian_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textColor="#ffffffff"
+                            android:background="@drawable/bj_gthgrfegthth11"
+                            android:paddingHorizontal="15dp"
+                            android:paddingVertical="5dp"
+                            android:textSize="12sp"
+                            tools:text="El pago mínimo es $1000 cada cuota"
+                            android:visibility="gone"
+                            />
+
+                    </LinearLayout>
+
+                    <!-- 分期列表 -->
+                    <LinearLayout
+                        android:id="@+id/fenqiPlanLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="18dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="8dp"
+                        android:background="@drawable/chanpinshue_details_bg"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/fenqiPlanBiaot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/sezhi_argb_333333"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/hr76ef_jg2323Rs_fv50"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/detailLyaout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/chanpinshue_details_bg"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/readDataTopIcon02"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginRight="11dp"
+                                android:src="@mipmap/useimg_jhgsdfjthgrs"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                android:id="@+id/readDataTopText02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/shangpins_foryo_detchangchang"
+                                android:textColor="@color/sezhi_argb_333333"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/chanpinshue_xuanze_buxuanzhong"
+                            android:orientation="vertical"
+                            android:padding="20dp">
+
+                            <LinearLayout
+                                android:id="@+id/jiendnisoj_sjfasf_zong"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Monto por pagar"
+                                        android:textColor="@color/sezhi_argb_333333"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/jiendnisoj_Valuesf_999"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_333333"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/jiendnisoj_sjfasf_111"
+                                    android:layout_marginTop="14dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/jglasjT_DO_djjfd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/shangpins_foryo_can"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/jiendnisoj_Valuesf_111"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+
+
+                                <RelativeLayout
+                                    android:id="@+id/jiendnisoj_sjfasf_222"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/shangpins_foryo_inte"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/jiendnisoj_Valuesf_222"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/jiendnisoj_sjfasf_333"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/shangpins_foryo_com"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/jiendnisoj_Valuesf_333"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/goodsRl05"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/bilicout_shamioashu_com"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/awesgP_12648_dgjafl"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/jiendnisoj_sjfasf_666"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:gravity="center_vertical"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/hgefasghfgdafsd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/bilicout_shamioashu_com1"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:layout_weight="1"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/thgfa_djgosfa_sfjnvvv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/shangpins_foryo_s100"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="16sp" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:id="@+id/jiendnisoj_RRLLasf_222"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:gravity="center_vertical"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/adsf_bdOGJ_jg23"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/bilicout_shamioashu_com1"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="18dp" />
+
+                                    <TextView
+                                        android:id="@+id/htgrfdaffqqqqq"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="@string/shangpins_foryo_s100"
+                                        android:textColor="@color/sezhi_argb_555555"
+                                        android:textSize="18dp" />
+                                </LinearLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/jiendnisoj_sjfasf_444"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="14dp">
+
+                                    <TextView
+                                        android:id="@+id/gfajlfjasfljasf"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/shangpins_foryo_mon2"
+                                        android:textColor="@color/sezhi_argb_333333"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:id="@+id/jiendnisoj_Valuesf_444"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text="S/--"
+                                        android:textColor="@color/sezhi_argb_333333"
+                                        android:textSize="16sp" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/afsaj_jfzhuce_lofjoisj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/sezhi_argb_baise">
+
+                    <LinearLayout
+                        android:id="@+id/ajowijfeifassfa"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/bj_daojishi"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/wenan1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/erheyidaojishi1"
+                            android:textColor="@color/sezhi_argb_333333"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/wenan2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/erheyidaojishi2"
+                                android:textColor="@color/sezhi_argb_333333"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/wenan3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="5dp"
+                                android:text="10:00"
+                                android:textColor="@color/sezhi_argb_FF7B28"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hetong_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_below="@+id/ajowijfeifassfa"
+                        android:layout_marginHorizontal="20dp"
+                        android:visibility="gone"
+                        tools:visibility="visible"
+                        android:gravity="center">
+
+                        <CheckBox
+                            android:id="@+id/checkbox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/checkxj_co"
+                            android:checked="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="He leído"
+                            android:textColor="@color/sezhi_argb_heise"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/daikuanhetong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text=" &lt;Contrato de crédito&gt; "
+                            android:textColor="#FF774F"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="detenidamente"
+                            android:textColor="@color/sezhi_argb_heise"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/fjgofiajf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/hetong_layout"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/bj_hgfafesrgfeasrg"
+                        android:gravity="center"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="17dp"
+                        android:text="@string/shangpins_foryo_pre"
+                        android:textColor="@color/sezhi_argb_baise"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/fjgofiajf"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@mipmap/useimg_hbgfeasgef" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="@string/jingogojian_dibugonggong_por"
+                            android:textColor="@color/sezhi_argb_heise"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/jingojian1dibuxieyi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jingogojian_dibugonggong_pol"
+                            android:textColor="@color/sezhi_argb_E20C2B"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

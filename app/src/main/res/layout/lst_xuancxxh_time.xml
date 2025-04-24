@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hrgef_jgRRs_fFCfijs223"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:background="@drawable/bj_grerrrrrrr">
+
+    <TextView
+        android:id="@+id/jirm_tiaomu_ccxxTShiajin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        tools:text=""
+        android:textColor="@color/sezhi_argb_141414"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/jirm_tiaomu_ccxxTShiajin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/jirm_tiaomu_ccxxTShiajin"
+        android:gravity="center"
+        tools:text="（91 días）"
+        android:textColor="#ffff7b28"
+        android:textSize="9sp" />
+
+    <ImageView
+        android:id="@+id/jirm_tiaomu_ccSuosusolockiajin"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/useimg_thgrfeasdg" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/jirm_tiaomu_checkedn"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/chanpshue_xuanzhong_icon" />
+
+</RelativeLayout>

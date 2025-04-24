@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/zongBuju"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise"
+    tools:context=".fourbig_a.gogoarrow.JinJinGoGoJian1Activity">
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/jingojian1fanhui"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/xinxiyemian_fanhui"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview" />
+
+
+            <TextView
+                android:id="@+id/readDataTopText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/ruanjianapp_mingzi"
+                android:textColor="@color/sezhi_argb_heise"
+                android:textSize="22dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview" />
+
+            <ImageView
+                android:id="@+id/jingojian1kefu"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/xinxiyemian_kefu"
+                android:visibility="invisible"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview" />
+
+        </LinearLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/zongHuadongBuju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/golbe_sjflT123_dingbuview">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="1"
+                        android:text="@string/jingogojian_xixifiveb_iip"
+                        android:textColor="@color/sezhi_argb_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/jingogojian_wanshan1"
+                        android:layout_width="76dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bj_tianxiejianjianyeanniu"
+                        android:gravity="center"
+                        android:text="@string/jingogojian_xixifiveb_btn"
+                        android:textColor="#ffffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="20dp"
+                    android:background="#D9D9D9" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="1"
+                        android:text="@string/jingogojian_xixifiveb_ccde"
+                        android:textColor="@color/sezhi_argb_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/jingogojian_wanshan3"
+                        android:layout_width="76dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bj_tianxiejianjianyeanniu"
+                        android:gravity="center"
+                        android:text="@string/jingogojian_xixifiveb_btn"
+                        android:textColor="#ffffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="20dp"
+                    android:background="#D9D9D9" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="1"
+                        android:text="@string/jingogojian_xixifiveb_idi"
+                        android:textColor="@color/sezhi_argb_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/jingogojian_wanshan4"
+                        android:layout_width="76dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/bj_tianxiejianjianyeanniu"
+                        android:gravity="center"
+                        android:text="@string/jingogojian_xixifiveb_btn"
+                        android:textColor="#ffffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="20dp"
+                    android:background="#D9D9D9" />
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

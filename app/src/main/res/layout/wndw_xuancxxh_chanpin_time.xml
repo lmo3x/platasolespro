@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/bj_gnngbfvaeeee"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/str_en_el_proximo_Rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/xaunzeriqi_yindao_topbj">
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="99dp"
+                    android:gravity="center"
+                    android:text="@string/zhuyetab_waitchek_ate"
+                    android:textColor="@color/sezhi_argb_E8482B"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="90dp"-->
+<!--                android:background="@drawable/bj_njjjjjjhhhhhhhh"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:orientation="horizontal">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="92dp"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginTop="15dp"-->
+<!--                        android:layout_marginRight="76dp"-->
+<!--                        android:text="@string/enel"-->
+<!--                        android:textColor="@color/sezhi_argb_baise"-->
+<!--                        android:textSize="16dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="21dp"-->
+<!--                        android:text="@string/shangpins_foryo_mon"-->
+<!--                        android:textColor="@color/sezhi_argb_FF9A30"-->
+<!--                        android:textSize="16dp" />-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="21dp"-->
+<!--                        android:text="@string/shangpins_foryo_fec"-->
+<!--                        android:textColor="@color/sezhi_argb_FF9A30"-->
+<!--                        android:textSize="16dp" />-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="33dp"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:layout_marginRight="33dp"-->
+<!--                        android:layout_marginBottom="20dp"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="90dp"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="10dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/bj_wwddwdd"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="@string/zhuyetab_waitchek_dia"-->
+<!--                            android:textColor="@color/sezhi_argb_FB4E4E"-->
+<!--                            android:textSize="18dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="90dp"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="10dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/bj_wwddwdd"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="@string/zhuyetab_waitchek_dia"-->
+<!--                            android:textColor="@color/sezhi_argb_FB4E4E"-->
+<!--                            android:textSize="18dp" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="0dp"-->
+<!--                            android:layout_height="90dp"-->
+<!--                            android:layout_marginLeft="10dp"-->
+<!--                            android:layout_marginRight="10dp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/bj_wwddwdd"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="@string/zhuyetab_waitchek_dia"-->
+<!--                            android:textColor="@color/sezhi_argb_FB4E4E"-->
+<!--                            android:textSize="18dp" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </LinearLayout>-->
+
+
+
+
+
+
+
+<!--            </LinearLayout>-->
+
+
+            <ImageView
+                android:id="@+id/xuanzeriqiguanbi"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/useimg_thhgrefarg" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/processsdkjksdj3333tututu"-->
+<!--                android:layout_width="156dp"-->
+<!--                android:layout_height="125dp"-->
+
+<!--                android:src="@mipmap/useimg_thgdthdtht" />-->
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="18dp"
+            android:src="@mipmap/xuanzeriqizongtu"/>
+
+        <TextView
+            android:id="@+id/str_ya_veoTv"
+            android:layout_width="145dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/str_en_el_proximo_Rl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bj_thgsdthgsfew"
+            android:gravity="center"
+            android:text="@string/shangpins_foryo_yav"
+            android:textColor="@color/sezhi_argb_baise"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

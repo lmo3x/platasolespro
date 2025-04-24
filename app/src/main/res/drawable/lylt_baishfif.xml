@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/yuanjiao_2dp"
+                android:left="@dimen/yuanjiao_2dp"
+                android:right="@dimen/yuanjiao_2dp"
+                android:top="@dimen/yuanjiao_2dp" />
+            <solid android:color="#055377D5" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_8dp"
+                android:bottomRightRadius="@dimen/yuanjiao_8dp"
+                android:topLeftRadius="@dimen/yuanjiao_8dp"
+                android:topRightRadius="@dimen/yuanjiao_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/yuanjiao_2dp"
+                android:left="@dimen/yuanjiao_2dp"
+                android:right="@dimen/yuanjiao_2dp"
+                android:top="@dimen/yuanjiao_2dp" />
+            <solid android:color="#095377D5" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_8dp"
+                android:bottomRightRadius="@dimen/yuanjiao_8dp"
+                android:topLeftRadius="@dimen/yuanjiao_8dp"
+                android:topRightRadius="@dimen/yuanjiao_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/yuanjiao_2dp"
+                android:left="@dimen/yuanjiao_2dp"
+                android:right="@dimen/yuanjiao_2dp"
+                android:top="@dimen/yuanjiao_2dp" />
+            <solid android:color="#0d5377D5" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_8dp"
+                android:bottomRightRadius="@dimen/yuanjiao_8dp"
+                android:topLeftRadius="@dimen/yuanjiao_8dp"
+                android:topRightRadius="@dimen/yuanjiao_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/yuanjiao_2dp"
+                android:left="@dimen/yuanjiao_2dp"
+                android:right="@dimen/yuanjiao_2dp"
+                android:top="@dimen/yuanjiao_2dp" />
+            <solid android:color="#105377D5" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_8dp"
+                android:bottomRightRadius="@dimen/yuanjiao_8dp"
+                android:topLeftRadius="@dimen/yuanjiao_8dp"
+                android:topRightRadius="@dimen/yuanjiao_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/yuanjiao_2dp"
+                android:left="@dimen/yuanjiao_2dp"
+                android:right="@dimen/yuanjiao_2dp"
+                android:top="@dimen/yuanjiao_2dp" />
+            <solid android:color="#155377D5" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_8dp"
+                android:bottomRightRadius="@dimen/yuanjiao_8dp"
+                android:topLeftRadius="@dimen/yuanjiao_8dp"
+                android:topRightRadius="@dimen/yuanjiao_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners
+                android:bottomLeftRadius="@dimen/yuanjiao_5dp"
+                android:bottomRightRadius="@dimen/yuanjiao_5dp"
+                android:topLeftRadius="@dimen/yuanjiao_5dp"
+                android:topRightRadius="@dimen/yuanjiao_5dp" />
+        </shape>
+    </item>
+</layer-list>

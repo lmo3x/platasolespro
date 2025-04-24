@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sezhi_argb_baise">
+
+    <View
+        android:id="@+id/golbe_sjflT123_dingbuview"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:paddingBottom="24dp"
+        android:layout_below="@+id/golbe_sjflT123_dingbuview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tyty_chengoksdj_pre2"
+                android:textColor="@color/sezhi_argb_838990"
+                android:textSize="16sp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="65dp">
+
+                <ImageView
+                    android:id="@+id/str_has_pagad_Iv"
+                    android:layout_width="123dp"
+                    android:layout_height="109dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:src="@mipmap/useimg_yjhtgryjnb" />
+
+                <TextView
+                    android:id="@+id/asfdghkjhgdfhgkjhgjhkjhf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/str_has_pagad_Iv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/tyty_chengoksdj_has"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/chenggongKhas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/asfdghkjhgdfhgkjhgjhkjhf"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:textColor="@color/sezhi_argb_333333"
+                    android:textSize="13sp"
+                    android:layout_marginTop="12dp"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/yjhgrfeaesrdf"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/bj_userallow_yes"
+                android:gravity="center"
+                android:text="@string/tyty_chengoksdj_pre"
+                android:textColor="@color/sezhi_argb_baise"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>
